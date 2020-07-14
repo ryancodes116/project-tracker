@@ -1,11 +1,19 @@
 <template>
-  <div id="app">Hello World</div>
+  <div id="app">
+    <Navbar />
+    <HeroSection />
+  </div>
 </template>
 
 <script>
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
 export default {
   name: "App",
-  components: {}
+  components: {
+    Navbar,
+    HeroSection
+  }
 };
 </script>
 
@@ -23,8 +31,17 @@ h4,
 h5,
 h6,
 button,
-li {
+a {
   font-family: "Barlow Condensed", sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 #app {
@@ -34,5 +51,12 @@ li {
   min-height: 100vh;
   font-family: "Barlow", sans-serif;
   font-size: 18px;
+  overflow: hidden;
+  padding: 3rem 0 7rem;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
 }
 </style>
