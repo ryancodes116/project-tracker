@@ -1,24 +1,5 @@
-# project-tracking-intro-component
+# Project Tracking Intro Component
 
-## Project setup
-```
-npm install
-```
+Built with Vue.js
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![](src/assets/images/desktop-design.jpg)
