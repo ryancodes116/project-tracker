@@ -17,6 +17,7 @@
         <a class="nav-link login" href="#">Login</a>
       </li>
     </ul>
+    <div class="bg-image"></div>
   </div>
 </template>
 
@@ -27,6 +28,17 @@ export default {
 </script>
 
 <style scoped>
+.bg-image {
+  background-color: hsl(207, 33%, 95%);
+  position: absolute;
+  top: -6%;
+  right: -15%;
+  width: 65%;
+  height: 73%;
+  border-radius: 3.5rem;
+  z-index: -1;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
