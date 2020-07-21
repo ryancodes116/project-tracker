@@ -28,6 +28,7 @@ export default {};
 .hero {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .devices {
@@ -91,6 +92,10 @@ export default {};
   text-transform: uppercase;
   margin-right: 1.2rem;
   cursor: pointer;
+}
+
+.cta-btn:hover {
+  opacity: 0.8;
 }
 
 .cta-text {

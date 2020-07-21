@@ -37,6 +37,7 @@ export default {
   height: 73%;
   border-radius: 3.5rem;
   z-index: -1;
+  overflow: hidden;
 }
 
 .navbar {
@@ -44,6 +45,7 @@ export default {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 5rem;
+  overflow: hidden;
 }
 
 .nav-icon {
@@ -56,6 +58,12 @@ export default {
 
 /* Media Queries */
 @media (min-width: 990px) {
+  .bg-image {
+    right: -2%;
+    width: 65%;
+    height: 58%;
+  }
+
   .nav-icon {
     display: none;
   }
