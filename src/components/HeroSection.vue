@@ -98,4 +98,22 @@ export default {};
   letter-spacing: 0.2rem;
   color: hsl(231, 7%, 65%);
 }
+
+/* Media Queries */
+@media (min-width: 1020px) {
+  .hero {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-text {
+    margin-right: 5rem;
+  }
+
+  .devices {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
 </style>
